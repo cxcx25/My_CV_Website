@@ -1,0 +1,117 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #E0E0E0;
+}
+
+header {
+    background-color: #1E1E1E;
+    color: #BB86FC;
+    padding: 2em 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.5em;
+    margin: 0.5em 0 0;
+}
+
+nav {
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #E0E0E0;
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #BB86FC;
+    color: #121212;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 2em auto;
+    background-color: #1E1E1E;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #E0E0E0;
+}
+
+h2 {
+    color: #BB86FC;
+    border-bottom: 2px solid #BB86FC;
+    padding-bottom: 0.5em;
+}
+
+.job h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #BB86FC;
+}
+
+.job p {
+    margin: 0.5em 0;
+    color: #E0E0E0;
+}
+
+.job ul {
+    list-style: disc;
+    margin-left: 1em;
+    color: #E0E0E0;
+}
+
+#contact p, #objective p {
+    color: #E0E0E0;
+}
+
+a {
+    color: #BB86FC;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #E0E0E0;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
